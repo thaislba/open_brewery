@@ -1,0 +1,270 @@
+[2023-06-04T13:36:50.887+0000] {processor.py:157} INFO - Started process (PID=766) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:36:50.889+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:36:50.891+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:36:50.891+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:36:50.917+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:36:51.096+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:36:51.095+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:open_brewery_pipeline
+[2023-06-04T13:36:51.106+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:36:51.106+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:open_brewery_pipeline
+[2023-06-04T13:36:51.113+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:36:51.113+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:open_brewery_pipeline
+[2023-06-04T13:36:51.114+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:36:51.114+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:36:51.129+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:36:51.129+0000] {dag.py:2747} INFO - Creating ORM DAG for open_brewery_pipeline
+[2023-06-04T13:36:51.143+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:36:51.143+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:36:51.166+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.283 seconds
+[2023-06-04T13:37:21.416+0000] {processor.py:157} INFO - Started process (PID=846) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:37:21.418+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:37:21.420+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:37:21.420+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:37:21.440+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:37:21.469+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:37:21.469+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:37:21.503+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:37:21.502+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:37:21.523+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.113 seconds
+[2023-06-04T13:37:51.634+0000] {processor.py:157} INFO - Started process (PID=917) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:37:51.636+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:37:51.638+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:37:51.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:37:51.660+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:37:51.693+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:37:51.692+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:37:51.729+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:37:51.729+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:37:51.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.125 seconds
+[2023-06-04T13:38:22.105+0000] {processor.py:157} INFO - Started process (PID=997) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:38:22.108+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:38:22.110+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:38:22.110+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:38:22.128+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:38:22.156+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:38:22.156+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:38:22.190+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:38:22.190+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:38:22.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.114 seconds
+[2023-06-04T13:38:52.390+0000] {processor.py:157} INFO - Started process (PID=1068) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:38:52.392+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:38:52.394+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:38:52.394+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:38:52.416+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:38:52.448+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:38:52.448+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:38:52.483+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:38:52.483+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:38:52.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.122 seconds
+[2023-06-04T13:39:22.994+0000] {processor.py:157} INFO - Started process (PID=1139) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:39:22.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:39:22.999+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:39:22.998+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:39:23.016+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:39:23.042+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:39:23.042+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:39:23.073+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:39:23.072+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:39:23.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.106 seconds
+[2023-06-04T13:39:53.605+0000] {processor.py:157} INFO - Started process (PID=1219) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:39:53.607+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:39:53.609+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:39:53.609+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:39:53.625+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:39:53.652+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:39:53.652+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:39:53.682+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:39:53.682+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:39:53.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.106 seconds
+[2023-06-04T13:40:24.248+0000] {processor.py:157} INFO - Started process (PID=1290) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:40:24.251+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:40:24.252+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:40:24.252+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:40:24.269+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:40:24.297+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:40:24.297+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:40:24.328+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:40:24.328+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:40:24.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.104 seconds
+[2023-06-04T13:40:54.948+0000] {processor.py:157} INFO - Started process (PID=1370) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:40:54.951+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:40:54.953+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:40:54.952+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:40:54.976+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:40:55.008+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:40:55.008+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:40:55.043+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:40:55.043+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:40:55.064+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.121 seconds
+[2023-06-04T13:41:25.171+0000] {processor.py:157} INFO - Started process (PID=1441) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:41:25.175+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:41:25.176+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:41:25.176+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:41:25.196+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:41:25.225+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:41:25.225+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:41:25.257+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:41:25.257+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:41:25.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.113 seconds
+[2023-06-04T13:41:55.585+0000] {processor.py:157} INFO - Started process (PID=1521) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:41:55.588+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:41:55.590+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:41:55.589+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:41:55.611+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:41:55.642+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:41:55.642+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:41:55.675+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:41:55.675+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:41:55.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.119 seconds
+[2023-06-04T13:42:26.072+0000] {processor.py:157} INFO - Started process (PID=1593) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:42:26.074+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:42:26.076+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:42:26.076+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:42:26.095+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:42:26.121+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:42:26.121+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:42:26.151+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:42:26.151+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:42:26.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.106 seconds
+[2023-06-04T13:42:56.341+0000] {processor.py:157} INFO - Started process (PID=1673) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:42:56.344+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:42:56.346+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:42:56.346+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:42:56.365+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:42:56.395+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:42:56.395+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:42:56.429+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:42:56.429+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:42:56.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.116 seconds
+[2023-06-04T13:43:26.682+0000] {processor.py:157} INFO - Started process (PID=1744) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:43:26.685+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:43:26.687+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:43:26.687+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:43:26.708+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:43:26.739+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:43:26.739+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:43:26.772+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:43:26.772+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:43:26.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.117 seconds
+[2023-06-04T13:43:56.928+0000] {processor.py:157} INFO - Started process (PID=1823) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:43:56.931+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:43:56.933+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:43:56.933+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:43:56.955+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:43:56.985+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:43:56.985+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:43:57.019+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:43:57.018+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:43:57.039+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.115 seconds
+[2023-06-04T13:44:27.285+0000] {processor.py:157} INFO - Started process (PID=1894) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:44:27.288+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:44:27.290+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:44:27.290+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:44:27.311+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:44:27.343+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:44:27.343+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:44:27.378+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:44:27.378+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:44:27.398+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.118 seconds
+[2023-06-04T13:44:57.895+0000] {processor.py:157} INFO - Started process (PID=1974) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:44:57.898+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:44:57.900+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:44:57.900+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:44:57.933+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:44:57.974+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:44:57.974+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:44:58.020+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:44:58.019+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:44:58.045+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.156 seconds
+[2023-06-04T13:45:28.487+0000] {processor.py:157} INFO - Started process (PID=2044) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:45:28.489+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:45:28.491+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:45:28.491+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:45:28.511+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:45:28.542+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:45:28.542+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:45:28.576+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:45:28.576+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:45:28.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.116 seconds
+[2023-06-04T13:45:58.800+0000] {processor.py:157} INFO - Started process (PID=2115) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:45:58.804+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:45:58.805+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:45:58.805+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:45:58.822+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:45:58.850+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:45:58.850+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:45:58.882+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:45:58.882+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:45:58.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.107 seconds
+[2023-06-04T13:46:29.020+0000] {processor.py:157} INFO - Started process (PID=2196) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:46:29.022+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:46:29.024+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:46:29.024+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:46:29.046+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:46:29.081+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:46:29.081+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:46:29.118+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:46:29.118+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:46:29.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.129 seconds
+[2023-06-04T13:46:59.379+0000] {processor.py:157} INFO - Started process (PID=2267) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:46:59.381+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:46:59.382+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:46:59.382+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:46:59.403+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:46:59.433+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:46:59.433+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:46:59.469+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:46:59.469+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:46:59.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.120 seconds
+[2023-06-04T13:47:29.858+0000] {processor.py:157} INFO - Started process (PID=2346) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:47:29.860+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:47:29.862+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:47:29.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:47:29.883+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:47:29.914+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:47:29.914+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:47:29.948+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:47:29.948+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:47:29.971+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.118 seconds
+[2023-06-04T13:48:00.362+0000] {processor.py:157} INFO - Started process (PID=2417) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:48:00.365+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:48:00.367+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:48:00.367+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:48:00.387+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:48:00.418+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:48:00.418+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:48:00.452+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:48:00.452+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:48:00.472+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.115 seconds
+[2023-06-04T13:48:30.866+0000] {processor.py:157} INFO - Started process (PID=2496) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:48:30.868+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:48:30.869+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:48:30.869+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:48:30.889+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:48:30.919+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:48:30.919+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:48:30.953+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:48:30.952+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:48:30.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.111 seconds
+[2023-06-04T13:49:01.044+0000] {processor.py:157} INFO - Started process (PID=2561) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:49:01.047+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:49:01.049+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:49:01.048+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:49:01.071+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:49:01.102+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:49:01.102+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:49:01.141+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:49:01.141+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:49:01.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.143 seconds
+[2023-06-04T13:49:31.417+0000] {processor.py:157} INFO - Started process (PID=2641) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:49:31.419+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:49:31.421+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:49:31.421+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:49:31.438+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:49:31.465+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:49:31.465+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:49:31.495+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:49:31.495+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:49:31.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.103 seconds
+[2023-06-04T13:50:02.301+0000] {processor.py:157} INFO - Started process (PID=2712) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:50:02.303+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:50:02.305+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:50:02.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:50:02.324+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:50:02.353+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:50:02.352+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:50:02.385+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:50:02.385+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:50:02.409+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.113 seconds
+[2023-06-04T13:50:32.596+0000] {processor.py:157} INFO - Started process (PID=2792) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:50:32.599+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:50:32.600+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:50:32.600+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:50:32.618+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:50:32.645+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:50:32.645+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:50:32.684+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:50:32.683+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:50:32.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.117 seconds
+[2023-06-04T13:51:02.946+0000] {processor.py:157} INFO - Started process (PID=2863) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:51:02.948+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:51:02.951+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:51:02.950+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:51:02.972+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:51:03.001+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:51:03.001+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:51:03.035+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:51:03.035+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:51:03.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.115 seconds
+[2023-06-04T13:51:33.220+0000] {processor.py:157} INFO - Started process (PID=2941) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:51:33.222+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:51:33.225+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:51:33.224+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:51:33.242+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:51:33.269+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:51:33.269+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:51:33.300+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:51:33.299+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:51:33.322+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.107 seconds
+[2023-06-04T13:52:03.509+0000] {processor.py:157} INFO - Started process (PID=3014) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:52:03.511+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:52:03.513+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:52:03.512+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:52:03.534+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:52:03.564+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:52:03.563+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:52:03.598+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:52:03.598+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:52:03.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.114 seconds
+[2023-06-04T13:52:33.791+0000] {processor.py:157} INFO - Started process (PID=3085) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:52:33.793+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:52:33.795+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:52:33.795+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:52:33.815+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:52:33.845+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:52:33.845+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:52:33.879+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:52:33.879+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:52:33.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.115 seconds
+[2023-06-04T13:53:04.051+0000] {processor.py:157} INFO - Started process (PID=3166) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:53:04.054+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:53:04.056+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:53:04.055+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:53:04.075+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:53:04.104+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:53:04.104+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:53:04.135+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:53:04.135+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:53:04.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.109 seconds
+[2023-06-04T13:53:34.634+0000] {processor.py:157} INFO - Started process (PID=3236) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:53:34.636+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:53:34.638+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:53:34.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:53:34.658+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:53:34.691+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:53:34.691+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:53:34.724+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:53:34.724+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:53:34.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.117 seconds
+[2023-06-04T13:54:05.446+0000] {processor.py:157} INFO - Started process (PID=3316) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:54:05.449+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:54:05.450+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:54:05.450+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:54:05.472+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:54:05.503+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:54:05.503+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:54:05.536+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:54:05.535+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:54:05.559+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.120 seconds
+[2023-06-04T13:54:35.706+0000] {processor.py:157} INFO - Started process (PID=3388) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:54:35.708+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:54:35.710+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:54:35.710+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:54:35.730+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:54:35.761+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:54:35.760+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:54:35.792+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:54:35.792+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:54:35.813+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.111 seconds
+[2023-06-04T13:55:06.022+0000] {processor.py:157} INFO - Started process (PID=3468) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:55:06.025+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:55:06.027+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:55:06.027+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:55:06.048+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:55:06.077+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:55:06.077+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:55:06.112+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:55:06.112+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:55:06.133+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.116 seconds
+[2023-06-04T13:55:36.955+0000] {processor.py:157} INFO - Started process (PID=3539) to work on /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:55:36.958+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/open_brewere_pipeline.py for tasks to queue
+[2023-06-04T13:55:36.960+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:55:36.960+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:55:36.981+0000] {processor.py:836} INFO - DAG(s) dict_keys(['open_brewery_pipeline']) retrieved from /opt/airflow/dags/open_brewere_pipeline.py
+[2023-06-04T13:55:37.011+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:55:37.011+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-04T13:55:37.047+0000] {logging_mixin.py:149} INFO - [2023-06-04T13:55:37.047+0000] {dag.py:3490} INFO - Setting next_dagrun for open_brewery_pipeline to 2023-06-03T00:00:00+00:00, run_after=2023-06-04T00:00:00+00:00
+[2023-06-04T13:55:37.071+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/open_brewere_pipeline.py took 0.121 seconds
