@@ -5,3 +5,6 @@ The goal is to extract the data, transform it and then load the data.
 ### Architecture proposed
 
 ![Label](/architecture.drawio.png)
+
+
+### Execution
