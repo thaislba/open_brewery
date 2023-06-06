@@ -18,7 +18,7 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
     "address_3": null,
     "city": "",
     "state_province": "",
-    "postal_code": "45213",
+    "postal_code": "",
     "country": "",
     "longitude": "",
     "latitude": "",
