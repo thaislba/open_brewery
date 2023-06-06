@@ -28,4 +28,9 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
     "street": ""
 }
 ````
+
+### Requirements
+- Docker Desktop
+- [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
+
 ### Execution
