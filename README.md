@@ -1,13 +1,13 @@
 ### About open_brewery
 This project is an ETL of the public [Open Brewery DB API](https://www.openbrewerydb.org/documentation).
-The goal is to extract the data, transform it and then load the data in an analytical environment. The proposal is to follow a Medallion architecture where data in the raw layer will be persisted in its native format, curated layer data in a columnar storage format partitioned by brewery location and enriched with agreggated views. 
+The goal is to extract the data, transform it and then load the data in an analytical environment. The proposal is to follow a Medallion architecture where data in the **raw** layer will be persisted in its native format, **curated** layer data in a columnar storage format partitioned by brewery location and **enriched** with agreggated views.
 
 ### Architecture proposed
 
 ![Label](/architecture.drawio.png)
 
 ### Data format
-The artifects of the extraction are JSON's and each one has the following format:
+The artifacts of the extraction are JSON's and each one of them is supposed to have the following format:
 ````
 {
     "id": "",
