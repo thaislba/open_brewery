@@ -13,19 +13,19 @@ The artifects of the extraction are JSON's and each one has the following format
     "id": "",
     "name": "",
     "brewery_type": "",
-    "address_1": "5164 Kennedy Ave",
+    "address_1": "",
     "address_2": null,
     "address_3": null,
-    "city": "Cincinnati",
-    "state_province": "Ohio",
+    "city": "",
+    "state_province": "",
     "postal_code": "45213",
-    "country": "United States",
-    "longitude": "-84.4137736",
-    "latitude": "39.1885752",
-    "phone": "5138368733",
-    "website_url": "http://www.madtreebrewing.com",
-    "state": "Ohio",
-    "street": "5164 Kennedy Ave"
+    "country": "",
+    "longitude": "",
+    "latitude": "",
+    "phone": "",
+    "website_url": "",
+    "state": "",
+    "street": ""
 }
 ````
 ### Execution
