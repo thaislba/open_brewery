@@ -8,7 +8,7 @@ The goal is to extract the data, transform it and then load the data in an analy
 
 ### Data format
 The artifacts of the extraction are JSON's and each one of them is supposed to have the following format:
-````
+````yaml
 {
     "id": "",
     "name": "",
