@@ -1,0 +1,73 @@
+[2023-06-07T19:44:50.392+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: open_brewery_pipeline.data_load manual__2023-06-07T19:44:10.508628+00:00 [queued]>
+[2023-06-07T19:44:50.407+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: open_brewery_pipeline.data_load manual__2023-06-07T19:44:10.508628+00:00 [queued]>
+[2023-06-07T19:44:50.408+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-07T19:44:50.428+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): data_load> on 2023-06-07 19:44:10.508628+00:00
+[2023-06-07T19:44:50.436+0000] {standard_task_runner.py:57} INFO - Started process 321 to run task
+[2023-06-07T19:44:50.442+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'open_brewery_pipeline', 'data_load', 'manual__2023-06-07T19:44:10.508628+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/open_brewery_pipeline.py', '--cfg-path', '/tmp/tmpki6sejzz']
+[2023-06-07T19:44:50.448+0000] {standard_task_runner.py:85} INFO - Job 71: Subtask data_load
+[2023-06-07T19:44:50.519+0000] {task_command.py:410} INFO - Running <TaskInstance: open_brewery_pipeline.data_load manual__2023-06-07T19:44:10.508628+00:00 [running]> on host 316b2649b846
+[2023-06-07T19:44:50.654+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='open_brewery_pipeline' AIRFLOW_CTX_TASK_ID='data_load' AIRFLOW_CTX_EXECUTION_DATE='2023-06-07T19:44:10.508628+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-07T19:44:10.508628+00:00'
+[2023-06-07T19:44:50.658+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-07T19:44:50.660+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 /opt/scripts/load.py ']
+[2023-06-07T19:44:50.679+0000] {subprocess.py:86} INFO - Output:
+[2023-06-07T19:44:53.445+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-06-07T19:44:53.447+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2553, in upload_from_file
+[2023-06-07T19:44:53.448+0000] {subprocess.py:93} INFO -     retry=retry,
+[2023-06-07T19:44:53.450+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2368, in _do_upload
+[2023-06-07T19:44:53.451+0000] {subprocess.py:93} INFO -     retry=retry,
+[2023-06-07T19:44:53.452+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 1891, in _do_multipart_upload
+[2023-06-07T19:44:53.454+0000] {subprocess.py:93} INFO -     transport, data, object_metadata, content_type, timeout=timeout
+[2023-06-07T19:44:53.455+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 154, in transmit
+[2023-06-07T19:44:53.457+0000] {subprocess.py:93} INFO -     retriable_request, self._get_status_code, self._retry_strategy
+[2023-06-07T19:44:53.458+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 155, in wait_and_retry
+[2023-06-07T19:44:53.459+0000] {subprocess.py:93} INFO -     response = func()
+[2023-06-07T19:44:53.460+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 149, in retriable_request
+[2023-06-07T19:44:53.462+0000] {subprocess.py:93} INFO -     self._process_response(result)
+[2023-06-07T19:44:53.463+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 114, in _process_response
+[2023-06-07T19:44:53.465+0000] {subprocess.py:93} INFO -     _helpers.require_status_code(response, (http.client.OK,), self._get_status_code)
+[2023-06-07T19:44:53.466+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/resumable_media/_helpers.py", line 113, in require_status_code
+[2023-06-07T19:44:53.468+0000] {subprocess.py:93} INFO -     *status_codes
+[2023-06-07T19:44:53.470+0000] {subprocess.py:93} INFO - google.resumable_media.common.InvalidResponse: ('Request failed with status code', 412, 'Expected one of', <HTTPStatus.OK: 200>)
+[2023-06-07T19:44:53.471+0000] {subprocess.py:93} INFO - 
+[2023-06-07T19:44:53.473+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2023-06-07T19:44:53.474+0000] {subprocess.py:93} INFO - 
+[2023-06-07T19:44:53.476+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-06-07T19:44:53.477+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 44, in <module>
+[2023-06-07T19:44:53.478+0000] {subprocess.py:93} INFO -     main()
+[2023-06-07T19:44:53.480+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 41, in main
+[2023-06-07T19:44:53.481+0000] {subprocess.py:93} INFO -     upload_blob("open_brewery", "/opt/scripts/data.txt", "brewery_data")
+[2023-06-07T19:44:53.483+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 33, in upload_blob
+[2023-06-07T19:44:53.484+0000] {subprocess.py:93} INFO -     blob.upload_from_filename(source_file_name, if_generation_match=generation_match_precondition)
+[2023-06-07T19:44:53.485+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2697, in upload_from_filename
+[2023-06-07T19:44:53.487+0000] {subprocess.py:93} INFO -     retry=retry,
+[2023-06-07T19:44:53.488+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2557, in upload_from_file
+[2023-06-07T19:44:53.489+0000] {subprocess.py:93} INFO -     _raise_from_invalid_response(exc)
+[2023-06-07T19:44:53.491+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 4369, in _raise_from_invalid_response
+[2023-06-07T19:44:53.492+0000] {subprocess.py:93} INFO -     raise exceptions.from_http_status(response.status_code, message, response=response)
+[2023-06-07T19:44:53.493+0000] {subprocess.py:93} INFO - google.api_core.exceptions.PreconditionFailed: 412 POST https://storage.googleapis.com/upload/storage/v1/b/open_brewery/o?uploadType=multipart&ifGenerationMatch=0: {
+[2023-06-07T19:44:53.494+0000] {subprocess.py:93} INFO -   "error": {
+[2023-06-07T19:44:53.496+0000] {subprocess.py:93} INFO -     "code": 412,
+[2023-06-07T19:44:53.497+0000] {subprocess.py:93} INFO -     "message": "At least one of the pre-conditions you specified did not hold.",
+[2023-06-07T19:44:53.499+0000] {subprocess.py:93} INFO -     "errors": [
+[2023-06-07T19:44:53.500+0000] {subprocess.py:93} INFO -       {
+[2023-06-07T19:44:53.501+0000] {subprocess.py:93} INFO -         "message": "At least one of the pre-conditions you specified did not hold.",
+[2023-06-07T19:44:53.502+0000] {subprocess.py:93} INFO -         "domain": "global",
+[2023-06-07T19:44:53.504+0000] {subprocess.py:93} INFO -         "reason": "conditionNotMet",
+[2023-06-07T19:44:53.505+0000] {subprocess.py:93} INFO -         "locationType": "header",
+[2023-06-07T19:44:53.507+0000] {subprocess.py:93} INFO -         "location": "If-Match"
+[2023-06-07T19:44:53.508+0000] {subprocess.py:93} INFO -       }
+[2023-06-07T19:44:53.509+0000] {subprocess.py:93} INFO -     ]
+[2023-06-07T19:44:53.510+0000] {subprocess.py:93} INFO -   }
+[2023-06-07T19:44:53.512+0000] {subprocess.py:93} INFO - }
+[2023-06-07T19:44:53.513+0000] {subprocess.py:93} INFO - : ('Request failed with status code', 412, 'Expected one of', <HTTPStatus.OK: 200>)
+[2023-06-07T19:44:53.514+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-06-07T19:44:53.530+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-06-07T19:44:53.538+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=open_brewery_pipeline, task_id=data_load, execution_date=20230607T194410, start_date=20230607T194450, end_date=20230607T194453
+[2023-06-07T19:44:53.561+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 71 for task data_load (Bash command failed. The command returned a non-zero exit code 1.; 321)
+[2023-06-07T19:44:53.596+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-07T19:44:53.621+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,39 @@
+[2023-06-06T21:19:10.771+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: open_brewery_pipeline.data_load manual__2023-06-06T21:18:07.705763+00:00 [queued]>
+[2023-06-06T21:19:10.785+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: open_brewery_pipeline.data_load manual__2023-06-06T21:18:07.705763+00:00 [queued]>
+[2023-06-06T21:19:10.787+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-06T21:19:10.806+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): data_load> on 2023-06-06 21:18:07.705763+00:00
+[2023-06-06T21:19:10.814+0000] {standard_task_runner.py:57} INFO - Started process 667 to run task
+[2023-06-06T21:19:10.820+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'open_brewery_pipeline', 'data_load', 'manual__2023-06-06T21:18:07.705763+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/open_brewery_pipeline.py', '--cfg-path', '/tmp/tmpdrjw2qi4']
+[2023-06-06T21:19:10.825+0000] {standard_task_runner.py:85} INFO - Job 43: Subtask data_load
+[2023-06-06T21:19:10.893+0000] {task_command.py:410} INFO - Running <TaskInstance: open_brewery_pipeline.data_load manual__2023-06-06T21:18:07.705763+00:00 [running]> on host eb9d23827c85
+[2023-06-06T21:19:11.003+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='open_brewery_pipeline' AIRFLOW_CTX_TASK_ID='data_load' AIRFLOW_CTX_EXECUTION_DATE='2023-06-06T21:18:07.705763+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-06T21:18:07.705763+00:00'
+[2023-06-06T21:19:11.007+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-06T21:19:11.009+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 /opt/scripts/load.py ']
+[2023-06-06T21:19:11.027+0000] {subprocess.py:86} INFO - Output:
+[2023-06-06T21:19:11.997+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-06-06T21:19:11.998+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 44, in <module>
+[2023-06-06T21:19:11.999+0000] {subprocess.py:93} INFO -     main()
+[2023-06-06T21:19:12.000+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 41, in main
+[2023-06-06T21:19:12.002+0000] {subprocess.py:93} INFO -     upload_blob("open_brewery", "/Users/thaisandrade/Documents/projects/open_brewery/***/scripts/data.txt", "brewery_data")
+[2023-06-06T21:19:12.003+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 21, in upload_blob
+[2023-06-06T21:19:12.004+0000] {subprocess.py:93} INFO -     storage_client = storage.Client()
+[2023-06-06T21:19:12.005+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 177, in __init__
+[2023-06-06T21:19:12.006+0000] {subprocess.py:93} INFO -     _http=_http,
+[2023-06-06T21:19:12.007+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/client/__init__.py", line 322, in __init__
+[2023-06-06T21:19:12.008+0000] {subprocess.py:93} INFO -     self, credentials=credentials, client_options=client_options, _http=_http
+[2023-06-06T21:19:12.010+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/client/__init__.py", line 178, in __init__
+[2023-06-06T21:19:12.010+0000] {subprocess.py:93} INFO -     credentials, _ = google.auth.default(scopes=scopes)
+[2023-06-06T21:19:12.011+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/auth/_default.py", line 648, in default
+[2023-06-06T21:19:12.012+0000] {subprocess.py:93} INFO -     raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+[2023-06-06T21:19:12.014+0000] {subprocess.py:93} INFO - google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2023-06-06T21:19:12.045+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-06-06T21:19:12.061+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-06-06T21:19:12.079+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=open_brewery_pipeline, task_id=data_load, execution_date=20230606T211807, start_date=20230606T211910, end_date=20230606T211912
+[2023-06-06T21:19:12.097+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 43 for task data_load (Bash command failed. The command returned a non-zero exit code 1.; 667)
+[2023-06-06T21:19:12.118+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-06T21:19:12.141+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

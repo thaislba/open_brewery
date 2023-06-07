@@ -1,0 +1,35 @@
+[2023-06-07T18:03:42.929+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: open_brewery_pipeline.data_load manual__2023-06-07T18:03:00.177987+00:00 [queued]>
+[2023-06-07T18:03:42.942+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: open_brewery_pipeline.data_load manual__2023-06-07T18:03:00.177987+00:00 [queued]>
+[2023-06-07T18:03:42.944+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-07T18:03:42.964+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): data_load> on 2023-06-07 18:03:00.177987+00:00
+[2023-06-07T18:03:42.972+0000] {standard_task_runner.py:57} INFO - Started process 240 to run task
+[2023-06-07T18:03:42.978+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'open_brewery_pipeline', 'data_load', 'manual__2023-06-07T18:03:00.177987+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/open_brewery_pipeline.py', '--cfg-path', '/tmp/tmpzcp4dinl']
+[2023-06-07T18:03:42.981+0000] {standard_task_runner.py:85} INFO - Job 61: Subtask data_load
+[2023-06-07T18:03:43.051+0000] {task_command.py:410} INFO - Running <TaskInstance: open_brewery_pipeline.data_load manual__2023-06-07T18:03:00.177987+00:00 [running]> on host a2d5081e771c
+[2023-06-07T18:03:43.169+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='open_brewery_pipeline' AIRFLOW_CTX_TASK_ID='data_load' AIRFLOW_CTX_EXECUTION_DATE='2023-06-07T18:03:00.177987+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-07T18:03:00.177987+00:00'
+[2023-06-07T18:03:43.172+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-07T18:03:43.174+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 /opt/scripts/load.py ']
+[2023-06-07T18:03:43.190+0000] {subprocess.py:86} INFO - Output:
+[2023-06-07T18:03:44.198+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.7/site-packages/google/auth/_default.py:78: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds.
+[2023-06-07T18:03:44.199+0000] {subprocess.py:93} INFO -   warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+[2023-06-07T18:03:44.206+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-06-07T18:03:44.207+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 44, in <module>
+[2023-06-07T18:03:44.208+0000] {subprocess.py:93} INFO -     main()
+[2023-06-07T18:03:44.209+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 41, in main
+[2023-06-07T18:03:44.210+0000] {subprocess.py:93} INFO -     upload_blob("open_brewery", "./***/scripts/data.txt", "brewery_data")
+[2023-06-07T18:03:44.211+0000] {subprocess.py:93} INFO -   File "/opt/scripts/load.py", line 33, in upload_blob
+[2023-06-07T18:03:44.212+0000] {subprocess.py:93} INFO -     blob.upload_from_filename(source_file_name, if_generation_match=generation_match_precondition)
+[2023-06-07T18:03:44.213+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2682, in upload_from_filename
+[2023-06-07T18:03:44.214+0000] {subprocess.py:93} INFO -     with open(filename, "rb") as file_obj:
+[2023-06-07T18:03:44.215+0000] {subprocess.py:93} INFO - FileNotFoundError: [Errno 2] No such file or directory: './***/scripts/data.txt'
+[2023-06-07T18:03:44.264+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-06-07T18:03:44.281+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-06-07T18:03:44.293+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=open_brewery_pipeline, task_id=data_load, execution_date=20230607T180300, start_date=20230607T180342, end_date=20230607T180344
+[2023-06-07T18:03:44.319+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 61 for task data_load (Bash command failed. The command returned a non-zero exit code 1.; 240)
+[2023-06-07T18:03:44.356+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-07T18:03:44.380+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
