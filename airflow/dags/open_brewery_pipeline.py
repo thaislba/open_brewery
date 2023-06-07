@@ -15,9 +15,14 @@ with DAG(
     tags=['open_brewery'],
     params={"example_key": "example_value"},
 ) as dag:
-	run_this = BashOperator(
+	extraction = BashOperator(
     	task_id="data_extraction",
 		bash_command=f"python3 /opt/scripts/extraction.py "
 	)
 
-run_this
+	load = BashOperator(
+		task_id="data_load",
+		bash_command=f"python3 /opt/scripts/load.py "
+	)
+
+extraction >> load

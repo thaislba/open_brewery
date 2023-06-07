@@ -1,4 +1,3 @@
-#!/usr/bin/env pyt
 # coding: utf-8 
 #----------------------------------------------------------------------------
 # Created By  : thaislba
@@ -8,11 +7,10 @@
 import requests
 import json
 import sys
-import time
 
 def get_breweries(page_size:int) -> None: 
 	"""
-      Call OpenBrewery APY GET method and populates a file with the data returned.
+      Call OpenBrewery API GET method and populates a file with the data returned.
       Argumentos:
 		  page_size: amount of json returned in the API page
       Retorna:
@@ -22,8 +20,7 @@ def get_breweries(page_size:int) -> None:
 
 	i = 0
 	#creates a file with the time of the processing
-	timestr = time.strftime("%d%m%Y-%H%M%S")
-	f = open(timestr + "_data.txt", "a")
+	f = open("data.txt", "a")
 	while True:
 		try:
 			#object Response r that will contain the information returned by the URL
