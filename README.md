@@ -35,12 +35,17 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
 
 ### Setup [in review]
 - After cloning this repo and installing the requirements above, follow the steps: 
-    - Navigate to the folder /openbrewery/airflow and run the commands:
+    - Navigate to the folder /openbrewery and run the commands:
+    - ````source .venv/bin/activate````
     - ````gcloud auth application-default login```` - > grants access to your Google account
     - ````export GCP_KEY_PATH=~/.config/gcloud/application_default_credentials.json```` -> creates an environment variable that will be used in the container for authentication
 - Check if the varible is correct by typing ````env````in the terminal 
-- Run the container 
+- Navigate to the folder /open_brewery/airflow and run the container: 
     - ````docker-compose -f docker-compose.yaml up````
 - Open your [localhost](http://localhost:8080/)
 
 ### Execution
+
+#### Extraction and Load
+
+#### Transformations
