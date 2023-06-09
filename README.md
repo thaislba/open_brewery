@@ -53,7 +53,7 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
 ### Execution
 
 #### Extraction and Load
-After you completed the setup of the environment and opened up the localhost, find the dag named ````open_brewery_pipeline`````.
+After you completed the setup of the environment and opened up the localhost, find the dag named ````open_brewery_pipeline.py````.
 This DAG has two tasks: 
     - extraction: it is responsible for calling the API, creating a file with the jsons returned and formatted to [NDJSON](http://ndjson.org/).
     - load: it is responsible for loading the data into a GCS bucket in GCP using your ADC(Application Default Credentials).
