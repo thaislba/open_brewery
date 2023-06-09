@@ -1,8 +1,8 @@
 ### About open_brewery
-This project is an ETL of the public [Open Brewery DB API](https://www.openbrewerydb.org/documentation).
+This project is  work-in-progress ETL of the public [Open Brewery DB API](https://www.openbrewerydb.org/documentation).
 The goal is to extract the data, transform it and then load the data in an analytical environment. The proposal is to follow a Medallion architecture where data in the **raw** layer will be persisted in its native format, **curated** layer data in a columnar storage format partitioned by brewery location and **enriched** with agreggated views.
 
-### Architecture proposed
+### Architecture proposed (goal)
 
 ![Label](/architecture.drawio.png)
 
@@ -32,6 +32,7 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
 ### Requirements
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
+- [Java SDK]([https://www.java.com/en/download/](https://www.oracle.com/java/technologies/downloads/#jdk20-linux))
 
 ### Setup [in review]
 #### Locally
@@ -61,6 +62,15 @@ This DAG has two tasks:
 Execute the dag, if your access to the project in GCP is correct and your ADC credentials is working, a file should be loaded in the GCS bucket.
 
 #### Transformations
-The transformations will happen in the Cloud environment, using Cloud Composer(Airflow) to orchestrate Spark jobs to promote data from raw to curated and then from curated to enriched.
+(TBD)
+The transformations will happen in the local environment using Airflow to orchestrate Spark jobs to promote data from raw to curated and then from curated to enriched.
     - raw: this layer was created using an external table from GCS to BQ
     - curated: dag named ````curated_open_brewery.py````will orchestrate a spark job named ````transform_to_curated.py````. This job is responsible from consuming raw data, transforming it and loading it to a table in the curated dataset.
+
+Filter these dags by typing open_brewery in the Airflow's filter bar. 
+
+#### Important things to acknowledge
+    - If there's already a file in Cloud Storage bucket and the load DAG is executed again, it will throw an error. Make sure that you delete the file in the GCS bucket. This problem will be addressed in the future.
+    - The codification of other languages still needs to be done at processing time.
+   
+   
