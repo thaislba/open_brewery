@@ -38,7 +38,7 @@ def upload_blob(bucket_name, source_file_name, destination_blob_name):
 
 def main():
 	
-	upload_blob("open_brewery", "/opt/scripts/data.txt", "brewery_data")
+	upload_blob("open_brewery", "/opt/scripts/brewery_data/brewery.csv", "brewery_data")
 	
 if __name__ == '__main__':
 	main()

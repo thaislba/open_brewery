@@ -3,3 +3,4 @@ requests==2.31.0
 google-cloud==0.34.0
 google-cloud-storage
 google-api-python-client
+ndjson==0.3.1

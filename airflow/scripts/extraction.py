@@ -7,6 +7,7 @@
 import requests
 import json
 import sys
+import ndjson
 
 def get_breweries(page_size:int) -> None: 
 	"""
@@ -17,23 +18,27 @@ def get_breweries(page_size:int) -> None:
           N/A
 
     """
-
-	i = 0
-	#creates a file with the time of the processing
-	f = open("data.txt", "a")
+    
+	file_name = "/opt/scripts/brewery_data/brewery.csv"
+	f = open(file_name, "a")
+	i=0
 	while True:
 		try:
-			#object Response r that will contain the information returned by the URL
 			endpoint = "https://api.openbrewerydb.org/v1/breweries?page="+str(i)+"&per_page="+str(page_size)+""
+			#object Response r that will contain the information returned by the URL
 			r = requests.get(endpoint)
 			if(len(r.json()) != 0):
-				f.write(r.text + ",\n")
+				data = json.loads(r.text)
+				data_formatted = ndjson.dumps(data)
+				f.write(data_formatted)
 				i += 1
 			else:
 				break
 		except Exception as e:
 			print("An exception occurred")
 			print(e)
+			break
+	f.close()	
 
 def main():
 	
