@@ -49,6 +49,7 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
 
 #### Access to GCP open_brewery project 
 
+To access this project you need to send me your gmail so I can add you in it with the proper permissions or you can create your own artifacts in GCP and reuse the code available here.
 
 ### Execution
 
