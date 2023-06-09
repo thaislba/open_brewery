@@ -72,5 +72,6 @@ Filter these dags by typing open_brewery in the Airflow's filter bar.
 #### Important things to acknowledge
     - If there's already a file in Cloud Storage bucket and the load DAG is executed again, it will throw an error. Make sure that you delete the file in the GCS bucket. This problem will be addressed in the future.
     - The codification of other languages still needs to be done at processing time.
+    - The folder's tree can and will be improved.
    
    
