@@ -40,7 +40,9 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
     - ````gcloud auth application-default login```` - > grants access to your Google account
     - ````export GCP_KEY_PATH=~/.config/gcloud/application_default_credentials.json```` -> creates an environment variable that will be used in the container for authentication
 - Check if the varible is correct by typing ````env````in the terminal 
-- Navigate to the folder /open_brewery/airflow and run the container: 
+- Navigate to the folder /open_brewery/airflow  and build the image
+- ````docker build -t open_brewery:latest . ````
+- after that run the container: 
     - ````docker-compose -f docker-compose.yaml up````
 - Open your [localhost](http://localhost:8080/)
 
