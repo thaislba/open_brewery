@@ -20,6 +20,9 @@ def get_breweries(page_size:int) -> None:
     """
     
 	file_name = "/opt/scripts/brewery_data/brewery.csv"
+	f = open(file_name, "w")
+	f.write("")
+	f.close()
 	f = open(file_name, "a")
 	i=0
 	while True:
@@ -28,9 +31,11 @@ def get_breweries(page_size:int) -> None:
 			#object Response r that will contain the information returned by the URL
 			r = requests.get(endpoint)
 			if(len(r.json()) != 0):
+				#f = open(file_name, "a")
 				data = json.loads(r.text)
 				data_formatted = ndjson.dumps(data)
-				f.write(data_formatted)
+				f.write(data_formatted+"\r\n")
+				print("que")
 				i += 1
 			else:
 				break
