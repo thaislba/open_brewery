@@ -34,20 +34,29 @@ The artifacts of the extraction are JSON's and each one of them is supposed to h
 - [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
 
 ### Setup [in review]
+#### Extraction and Load
 - After cloning this repo and installing the requirements above, follow the steps: 
-    - Navigate to the folder /openbrewery and run the commands:
+    - Navigate to the folder /open_brewery and run the commands:
     - ````source .venv/bin/activate````
     - ````gcloud auth application-default login```` - > grants access to your Google account
     - ````export GCP_KEY_PATH=~/.config/gcloud/application_default_credentials.json```` -> creates an environment variable that will be used in the container for authentication
-- Check if the varible is correct by typing ````env````in the terminal 
+- Check if the variable is correct by typing ````env````in the terminal, it's expected to print the full path to the folder in your machine.
 - Navigate to the folder /open_brewery/airflow  and build the image
 - ````docker build -t open_brewery:latest . ````
 - after that run the container: 
     - ````docker-compose -f docker-compose.yaml up````
 - Open your [localhost](http://localhost:8080/)
 
+#### Access to GCP open_brewery project 
+
+
 ### Execution
 
 #### Extraction and Load
-
+After you completed the setup of the environment and opened up the localhost, find the dag named ````open_brewery_pipeline`````.
+This DAG has two tasks: 
+    - extraction: it is responsible for calling the API, creating a file with the jsons returned and formatted to [NDJSON](http://ndjson.org/).
+    - load: it is responsible for loading the data into a GCS bucket in GCP using your ADC(Application Default Credentials).
+    
 #### Transformations
+The transformations will happen in the Cloud environment, using Cloud Composer(Airflow) to orchestrate Spark jobs to promote data from raw to curated and then from curated to enriched.
